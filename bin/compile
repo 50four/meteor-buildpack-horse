@@ -97,7 +97,7 @@ fi
 
 # Install the latest meteor, and rely on meteor to upgrade/downgrade itself to
 # the .meteor/release target.
-if [ -z "$SKIP_METEOR_INSTALLATION" ]; then
+if [ -z "$INSTALL_METEOR" ]; then
   echo "-----> Using existing meteor installation."
 else
   echo "-----> Installing meteor"
